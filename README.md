@@ -22,7 +22,7 @@
 
 
 npm install
-This command installs all the necessary dependencies listed in package.json.
+* This command installs all the necessary dependencies listed in package.json.
 
 ### **Configuration**
 
@@ -35,11 +35,12 @@ Add Configuration Values:
 ## **Populate the .env file with the following environment variables:**
 
 ### **Database Configuration**
-DB_HOST=your-database-host
-DB_PORT=your-database-port
-DB_USERNAME=your-database-username
-DB_PASSWORD=your-database-password
-DB_NAME=your-database-name
+
+* DB_HOST=your-database-host
+* DB_PORT=your-database-port
+* DB_USERNAME=your-database-username
+* DB_PASSWORD=your-database-password
+* DB_NAME=your-database-name
 
 ### **Third Party API Configuration**
 
