@@ -48,5 +48,10 @@ Add Configuration Values:
 * THIRD_PARTY_API_KEY: The API key for accessing the third-party API.
 
 
+### **Run command**
+* npm run dev (with nodemon)
+* npm run start (without nodemon)
+
+
 
 
