@@ -15,9 +15,10 @@ const salesOrderValidation = {
 
       const checkValidation = validation(req.body, rules);
       if (checkValidation !== true) {
-        const fieldName = Object.keys(checkValidation)[0];
+        const fieldName = Object.keys(checkValidation?.errors)[0];
         const msg =
-          fieldName + " " + checkValidation[fieldName][0] || checkValidation;
+          fieldName + ":" + checkValidation?.errors[fieldName][0] ||
+          checkValidation;
         return response({
           req,
           res,
@@ -89,9 +90,10 @@ const salesOrderValidation = {
 
       const checkValidation = validation(req.params, rules);
       if (checkValidation !== true) {
-        const fieldName = Object.keys(checkValidation)[0];
+        const fieldName = Object.keys(checkValidation?.errors)[0];
         const msg =
-          fieldName + " " + checkValidation[fieldName][0] || checkValidation;
+          fieldName + ":" + checkValidation?.errors[fieldName][0] ||
+          checkValidation;
         return response({
           req,
           res,

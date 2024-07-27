@@ -1,25 +1,5 @@
-// const { DataTypes } = require('sequelize');
-// const sequelize = require('../../config/dbConnection');
-
-// const Product = sequelize.define('Product', {
-//   name: {
-//     type: DataTypes.STRING,
-//     allowNull: false
-//   },
-//   description: {
-//     type: DataTypes.STRING,
-//     allowNull: true
-//   },
-//   price: {
-//     type: DataTypes.FLOAT,
-//     allowNull: false
-//   }
-// });
-
-// module.exports = Product;
-
 const { DataTypes, Model } = require("sequelize");
-const sequelize = require("../../config/dbConnection"); // Adjust path as needed
+const sequelize = require("../../config/dbConnection");
 
 class Product extends Model {
   static associate(models) {

@@ -1,5 +1,5 @@
 const { DataTypes, Model } = require("sequelize");
-const sequelize = require("../../config/dbConnection"); // Adjust the path as per your project structure
+const sequelize = require("../../config/dbConnection"); 
 
 class SalesOrder extends Model {}
 
