@@ -32,16 +32,16 @@ In the root directory of the project, create a file named .env
 
 Add Configuration Values:
 
-# **Populate the .env file with the following environment variables:**
+## **Populate the .env file with the following environment variables:**
 
-# **Database Configuration**
+### **Database Configuration**
 DB_HOST=your-database-host
 DB_PORT=your-database-port
 DB_USERNAME=your-database-username
 DB_PASSWORD=your-database-password
 DB_NAME=your-database-name
 
-# **Third Party API Configuration**
+### **Third Party API Configuration**
 
 THIRD_PARTY_API_URL: The URL of the third-party API.
 THIRD_PARTY_API_KEY: The API key for accessing the third-party API.
