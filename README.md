@@ -44,8 +44,8 @@ Add Configuration Values:
 
 ### **Third Party API Configuration**
 
-THIRD_PARTY_API_URL: The URL of the third-party API.
-THIRD_PARTY_API_KEY: The API key for accessing the third-party API.
+* THIRD_PARTY_API_URL: The URL of the third-party API.
+* THIRD_PARTY_API_KEY: The API key for accessing the third-party API.
 
 
 
