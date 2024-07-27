@@ -27,15 +27,16 @@ Add Configuration Values:
 
 # Populate the .env file with the following environment variables:
 
-# Database Configuration
-DB_HOST: The hostname or IP address of your database server.
-DB_PORT: The port number on which your database is running (e.g., 5432 for PostgreSQL).
-DB_USERNAME: The username for your database.
-DB_PASSWORD: The password for your database.
-DB_NAME: The name of your database.
+# **Database Configuration**
+DB_HOST=your-database-host
+DB_PORT=your-database-port
+DB_USERNAME=your-database-username
+DB_PASSWORD=your-database-password
+DB_NAME=your-database-name
 
-# Third Party API Configuration
+# **Third Party API Configuration**
+THIRD_PARTY_API_URL=https://third-party-api.com/salesOrder
+THIRD_PARTY_API_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 
-THIRD_PARTY_API_URL: The URL of the third-party API.
-THIRD_PARTY_API_KEY: The API key for accessing the third-party API.
+
 
